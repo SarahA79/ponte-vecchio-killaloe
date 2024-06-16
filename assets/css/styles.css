@@ -10,9 +10,20 @@ body{
     background-color: #fff8de;
     color: #4d5d53;
 }
-#welcome{
-    background:url("../images/ai-pvBridge2.jpeg") ;
-    position: relative;
+#hero{
+    background:url("../images/ai-pvBridge3.jpeg") no-repeat center center/cover;
+    position: fixed;
     width: 100%;
-    height: auto;
+    height: 500;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#hero-text{
+background-color: rgba(248, 240, 204, 0.6);
+font-size: 120%;
+color: #1f2622;
+text-align: center;
+flex-wrap: wrap;
+padding top:40px;
 }
