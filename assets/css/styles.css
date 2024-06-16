@@ -10,3 +10,9 @@ body{
     background-color: #fff8de;
     color: #4d5d53;
 }
+#welcome{
+    background:url("../images/ai-pvBridge2.jpeg") ;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
