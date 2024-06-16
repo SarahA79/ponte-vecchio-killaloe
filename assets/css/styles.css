@@ -18,9 +18,10 @@ body{
     background-color: #4d5d53;
     color: bisque;
 }
-#food{
+#welcome{
     background-color: #dce3c7;
-    color:#4d5d53
+    color:#4d5d53;
+    text-align:center;
 }
 #drinks{
     background-color: #fff8de;
@@ -45,8 +46,9 @@ padding top:40px;
 }
 
 #food-home{
-    margin:5%;
     max-width: 150px;
+    padding:20px;
+    border-radius: 15%;
 }
 #food{
     margin-top: 30px;
