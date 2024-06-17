@@ -55,17 +55,18 @@ body {
     justify-content: center;
     border-bottom: 1px solid #1f2622;
 }
-
+/*
 #hero-text {
-    background-color: rgba(248, 240, 204, 0.8);
+    background-color: rgba(240, 239, 187, 0.9);
     font-weight: 600;
-    color: #1f2622;
+    color: #4e4e09;
     text-align: center;
     flex-wrap: wrap;
     padding: 10px;
     height: 60px;
     overflow: hidden;
 }
+*/
 
 #welcome h2 {
     font-weight: bolder;
@@ -126,5 +127,5 @@ body {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: bisque;
 }
