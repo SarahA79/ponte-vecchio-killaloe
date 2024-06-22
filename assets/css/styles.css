@@ -126,6 +126,34 @@ body {
     border-top: 1px solid #1f2622;
 }
 
+/* Menu table(small) */
+
+.light-menu{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-table{
+    padding: 15%;
+    border-radius: 25%;
+    border-style: ridge;
+    margin: 50px;
+    
+}
+
+#light-menu{
+    position: relative;
+    justify-self: center;
+    border: solid 1px violet ;
+    margin: 30px;
+    padding: 20px;
+}
+
+.small-table tr{
+    padding: 1.5em;
+}
 
 /* Footer */
 #social-networks {
