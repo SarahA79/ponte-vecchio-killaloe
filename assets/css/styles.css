@@ -130,27 +130,34 @@ body {
 
 .light-menu{
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    width: 100vw;
     align-items: center;
     justify-content: center;
 }
 
 .small-table{
-    padding: 15%;
+    padding: 10%;
     border-radius: 25%;
     border-style: ridge;
-    margin: 50px;
-    
+    /*margin: 10%
+*/    
 }
 
 #light-menu{
     position: relative;
     justify-self: center;
-    border: solid 1px violet ;
-    margin: 30px;
-    padding: 20px;
+    margin: 10%;
+    padding: 5%px;
 }
 
+
+#food-sandwiches{
+    position: relative;
+    justify-self: center;
+    margin: 10%;
+    padding: 5%px;
+}
 .small-table tr{
     padding: 1.5em;
 }
