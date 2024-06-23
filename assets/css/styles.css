@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #222917;
     color: #e1e4cd;
-    margin: 0;
     font-family: Alata, sans-serif;
 }
+h1{
+    font-size: 3rem;
+}
+
 
 .navbar {
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 0;
     box-shadow: 0 4px 4px #1f2622;
     background-color: antiquewhite;
-    z-index: 2;
+    z-index: 1000;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -80,11 +90,11 @@ body {
 }
 */
 
-#welcome h2 {
+#welcome h1, #welcome h2, h3 {
     font-weight: bolder;
     text-align: center;
-    color: #e1e4cd;
     width: 100%;
+    padding: 1.2em;
 }
 
 #pv-welcome {
@@ -193,17 +203,57 @@ h1, p{
 }
 /* feedback */
 #feedback-page{
-    display: flex;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
     justify-content: center;
     align-items: center;
+
 }
 /* Feedback form*/
-#feedback-form{
-    border:2px ridge #fff8de;
-    width:80%;
+#feedback-form {
+    border: 2px ridge #fff8de;
+    width: 100%;
     border-radius: 5%;
     box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);
     max-width: 500px;
+    padding: 5px;
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-item label{
+    flex:1;
+    margin-right: 10px;
+    text-align: left;
+}
+.form-item input{
+    flex:2;
+    padding:5px;
+    border:1px solid #fff8de;
+    border-radius: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+#button-div{
+    display: flex;
+    justify-content: flex-end;
+    /* width: 40px; */
+    /* border-radius: 15px; */
+    /* ; */
+}
+
+button{
+    width: 90px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px rgba(135, 135, 134, 0.4);
+}
+button:hover{
+    background-color: #4d5d53;
+    color: #e1e4cd;
 }
 #close{
     border-radius: 5%;
@@ -216,6 +266,7 @@ h1, p{
     text-align: center;
     padding: 20px 0;
     display: flex;
+    position: fixed;
     justify-content: space-evenly;
     list-style-type: none;
 }

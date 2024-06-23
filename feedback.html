@@ -35,22 +35,43 @@
 
         <div id="feedback-form">
             <form action="thanks.html" method="get">
-                <div class="form-item" <label for="name"> Name:</label>
-                    <input type="text" name="name" id="name" required placeholder="Antonio Marion">
+                <h2>Let us know what you think</h2>
+                <div class="form-item">
+                     <label for="name"> Name:</label>
+                    <input type="text" name="name" id="name" class="textbox" required placeholder="Antonio Marion">
                 </div>
-                <div class="form-item" <label for="email"> Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Enter valid email address">
+                <div class="form-item">
+                    <label for="email"> Email:</label>
+                    <input type="email" name="email" id="email" class="textbox" placeholder="Enter valid email address">
                 </div>
-                <div class="form-item" <label for="comments">Comments</label>
-                    <textarea name="comments" id="comments" rows="5" placeholder="Did you love us? We hope you did!"></textarea>
+                <div class="form-item form-align-top">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" rows="5" class="textbox"placeholder="Did you love us? We hope you did!"></textarea>
                 </div>
-                <div>
+                <div id="button-div">
                     <button type="submit">Submit</button>
                 </div>
             </form>
         
     </div>
-
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="http://www.facebook.com/PonteVecchioKillaloe" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in  a new tab)">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.instagram.com/ponte_vecchio_killaloe" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram channel (opens in new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/9906bd50db.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
