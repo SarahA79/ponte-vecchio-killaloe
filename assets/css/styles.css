@@ -164,7 +164,7 @@ tbody{
     gap: 10px;
     padding: 20px;
     margin: 1.2rem;
-    border-bottom:1px solid #e1e4cd;
+    border-bottom: 1px solid #e1e4cd;
 }
 
 .item{
@@ -190,6 +190,26 @@ tbody{
 }
 h1, p{
     text-align: center;
+}
+/* feedback */
+#feedback-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Feedback form*/
+#feedback-form{
+    border:2px ridge #fff8de;
+    width:80%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);
+    max-width: 500px;
+}
+#close{
+    border-radius: 5%;
+    background-color: #e1e4cd;
+    color: #4d5d53;
+    box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);;
 }
 /* Footer */
 #social-networks {
