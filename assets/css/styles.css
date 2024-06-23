@@ -143,11 +143,19 @@ tbody{
 .small-table{
     padding: 10%;
     border-top: 1px solid#e1e4cd;
+    width: 100%rem;
 }
 
 #light-menu, #food-menu{
     position: relative;
     justify-self: center;
+}
+.food{
+    width: 80%em;
+}
+.table-price{
+    width: 5%;
+    max-width: fit-content;
 }
 /*testing grid */
 .container{
@@ -156,6 +164,7 @@ tbody{
     gap: 10px;
     padding: 20px;
     margin: 1.2rem;
+    border-bottom:1px solid #e1e4cd;
 }
 
 .item{
