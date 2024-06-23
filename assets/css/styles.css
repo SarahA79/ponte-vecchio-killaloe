@@ -140,24 +140,44 @@ body {
     padding: 10%;
     border-radius: 25%;
     border-style: ridge;
-    /*margin: 10%
-*/    
+    margin-bottom: 2rem;
 }
 
-#light-menu{
+#light-menu, #food-menu{
     position: relative;
     justify-self: center;
-    margin: 10%;
-    padding: 5%px;
+    margin: 5%;
+    padding: 5%;
+}
+/*testing grid */
+.container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+    padding: 20px;
 }
 
-
+.item{
+    padding: 20px;
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+    font-weight: bold;
+}
+.description{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    font-size: smaller;
+}
+/* 
 #food-sandwiches{
     position: relative;
     justify-self: center;
     margin: 10%;
     padding: 5%px;
-}
+} */
 .small-table tr{
     padding: 1.5em;
 }
