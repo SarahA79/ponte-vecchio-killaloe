@@ -146,8 +146,6 @@ body {
 #light-menu, #food-menu{
     position: relative;
     justify-self: center;
-    margin: 5%;
-    padding: 5%;
 }
 /*testing grid */
 .container{
@@ -155,33 +153,33 @@ body {
     grid-template-columns: 80% 20%;
     gap: 10px;
     padding: 20px;
+    margin: 1.2rem;
 }
 
 .item{
-    padding: 20px;
+    padding: 5%;
     text-align: center;
 }
 .text-left{
     text-align: left;
     font-weight: bold;
 }
+.price{
+    padding: 0;
+    align-content: center;
+}
 .description{
-    padding-top: 2px;
+    padding-top: 0px;
     padding-bottom: 2px;
-    padding-left: 40px;
+    padding-left: 10%;
     font-size: smaller;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-top: -5%;
 }
-/* 
-#food-sandwiches{
-    position: relative;
-    justify-self: center;
-    margin: 10%;
-    padding: 5%px;
-} */
-.small-table tr{
-    padding: 1.5em;
+h1, p{
+    text-align: center;
 }
-
 /* Footer */
 #social-networks {
     text-align: center;
