@@ -126,8 +126,10 @@ body {
     border-top: 1px solid #1f2622;
 }
 
-/* Menu table(small) */
-
+/* Menu  */
+#food-menu-block{
+    align-items: center;
+}
 .light-menu{
     display: flex;
     flex-direction: column;
@@ -135,12 +137,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+tbody{
+    width: 20rem;
+}
 .small-table{
     padding: 10%;
-    border-radius: 25%;
-    border-style: ridge;
-    margin-bottom: 2rem;
+    border-top: 1px solid#e1e4cd;
 }
 
 #light-menu, #food-menu{
