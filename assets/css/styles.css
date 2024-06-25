@@ -268,17 +268,26 @@ button:hover{
     box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);;
 }
 /* Footer */
-#social-networks {
+footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    position: fixed;
+    position: relative;
+    width: 100%;
     justify-content: space-evenly;
-    list-style-type: none;
+    flex-flow: row;
+
+    
+    /* background-color: darkkhaki; */
 }
 
+footer,ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+}
 #social-networks i {
     font-size: 160%;
     padding: 5%;
+    letter-spacing: 4px;
     color: bisque;
 }
