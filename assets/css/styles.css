@@ -112,7 +112,6 @@ h3 {
     background-color: #e1e4cd;
     color: #4d5d53;
     text-align: center;
-    overflow: hidden;
     padding: 20px;
     border-top: 3px solid #000000;
     border-bottom: 1px solid #1f2622;
@@ -142,9 +141,9 @@ h3 {
 }
 
 /* Menu  */
-#food-menu-block {
+/* #food-menu-block {
     align-items: center;
-}
+} */
 
 .light-menu {
     display: flex;
@@ -153,47 +152,33 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-
-tbody {
-    width: 20rem;
-}
-
-.small-table {
-    padding: 10%;
-    border-top: 1px solid#e1e4cd;
-    width: 100%rem;
-}
-
+/* 
 #light-menu,
 #food-menu {
     position: relative;
     justify-self: center;
-}
-
+} */
+/* 
 .food {
     width: 80%em;
-}
+} */
 
-.table-price {
-    width: 5%;
-    max-width: fit-content;
-}
 
 /*testing grid */
-.container {
+/* .container {
     display: grid;
     grid-template-columns: 80% 20%;
     gap: 10px;
     padding: 20px;
     margin: 1.2rem;
     border-bottom: 1px solid #e1e4cd;
-}
-
-.item {
+}*/
+ .item {
     padding: 5%;
     text-align: center;
-}
-
+    width: 40%;
+} 
+/*
 .text-left {
     text-align: left;
     font-weight: bold;
@@ -212,8 +197,61 @@ tbody {
     text-align: left;
     margin-bottom: 6px;
     margin-top: -5%;
+} */
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
+#food-menu-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .container {
+    width: 48%;
+} */
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+#light-menu{
+    width: 50%;
+    padding-right: 10px;
+}
+#food-sandwiches{
+    width: 50%;
+    padding-left: 10px;
+}
+.text-left {
+    flex: 1;
+    text-align: left;
+}
+
+.price {
+    flex: 0 0 50px;
+    text-align: right;
+}
+
+.description {
+    flex-basis: 100%;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
 h1,
 p {
     text-align: center;
@@ -306,9 +344,11 @@ ul {
     list-style-type: none;
     justify-content: space-evenly;
     display: flex;
-
+    text-decoration: none;
 }
-
+footer ul li{
+    text-decoration: none;
+}
 #social-networks i {
     display: flex;
     flex-direction: row;
@@ -317,6 +357,7 @@ ul {
     letter-spacing: 4px;
     color: bisque;
     margin: 0 10px;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,7 +367,6 @@ ul {
 
     body {
         height: 100dvh;
-        overflow: hidden;
     }
 
     footer {
