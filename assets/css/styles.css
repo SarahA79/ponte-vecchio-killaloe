@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-*{
-    padding:0;
-    margin:0;
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 body {
     min-height: 100vh;
     display: flex;
@@ -12,7 +14,8 @@ body {
     color: #e1e4cd;
     font-family: Alata, sans-serif;
 }
-h1{
+
+h1 {
     margin-top: 70px;
     font-size: 3rem;
 }
@@ -20,12 +23,12 @@ h1{
 
 .navbar {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     left: 0;
     top: 0;
     box-shadow: 0 4px 4px #1f2622;
     background-color: antiquewhite;
-    z-index: 1000;
+    z-index: 10;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -35,13 +38,14 @@ h1{
 
 .nav-menu {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 0.8em;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .nav-menu li {
@@ -59,6 +63,13 @@ h1{
     text-decoration: solid;
 }
 
+#main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 #hero-main {
     background: url("../images/pv-front.jpeg") no-repeat center center/cover;
     position: relative;
@@ -69,7 +80,8 @@ h1{
     justify-content: center;
     border-bottom: 1px solid #1f2622;
 }
-.drinks{
+
+.drinks {
     background: url("../images/wine-shelves.jpeg") no-repeat center center/cover;
     position: relative;
     width: 100%;
@@ -79,20 +91,11 @@ h1{
     justify-content: center;
     border-bottom: 1px solid #1f2622;
 }
-/*
-#hero-text {
-    background-color: rgba(240, 239, 187, 0.9);
-    font-weight: 600;
-    color: #4e4e09;
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    height: 60px;
-    overflow: hidden;
-}
-*/
 
-#welcome h1, #welcome h2, h3 {
+
+#welcome h1,
+#welcome h2,
+h3 {
     font-weight: bolder;
     text-align: center;
     width: 100%;
@@ -113,7 +116,7 @@ h1{
     padding: 20px;
     border-top: 3px solid #000000;
     border-bottom: 1px solid #1f2622;
-    }   
+}
 
 #food-home-img {
     max-width: 10rem;
@@ -139,38 +142,45 @@ h1{
 }
 
 /* Menu  */
-#food-menu-block{
+#food-menu-block {
     align-items: center;
 }
-.light-menu{
+
+.light-menu {
     display: flex;
     flex-direction: column;
     width: 100vw;
     align-items: center;
     justify-content: center;
 }
-tbody{
+
+tbody {
     width: 20rem;
 }
-.small-table{
+
+.small-table {
     padding: 10%;
     border-top: 1px solid#e1e4cd;
     width: 100%rem;
 }
 
-#light-menu, #food-menu{
+#light-menu,
+#food-menu {
     position: relative;
     justify-self: center;
 }
-.food{
+
+.food {
     width: 80%em;
 }
-.table-price{
+
+.table-price {
     width: 5%;
     max-width: fit-content;
 }
+
 /*testing grid */
-.container{
+.container {
     display: grid;
     grid-template-columns: 80% 20%;
     gap: 10px;
@@ -179,19 +189,22 @@ tbody{
     border-bottom: 1px solid #e1e4cd;
 }
 
-.item{
+.item {
     padding: 5%;
     text-align: center;
 }
-.text-left{
+
+.text-left {
     text-align: left;
     font-weight: bold;
 }
-.price{
+
+.price {
     padding: 0;
     align-content: center;
 }
-.description{
+
+.description {
     padding-top: 0px;
     padding-bottom: 2px;
     padding-left: 10%;
@@ -200,11 +213,14 @@ tbody{
     margin-bottom: 6px;
     margin-top: -5%;
 }
-h1, p{
+
+h1,
+p {
     text-align: center;
 }
+
 /* feedback */
-#feedback-page{
+#feedback-page {
     flex-grow: 1;
     width: 100%;
     padding: 20px 10% 0 10%;
@@ -212,6 +228,7 @@ h1, p{
     align-items: center;
 
 }
+
 /* Feedback form*/
 #feedback-form {
     border: 2px ridge #fff8de;
@@ -222,29 +239,33 @@ h1, p{
     padding: 5px;
 }
 
-.form-item{
+.form-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-.form-item label{
-    flex:1;
+
+.form-item label {
+    flex: 1;
     margin-right: 10px;
     text-align: left;
 }
-.form-item input{
-    flex:2;
-    padding:5px;
-    border:1px solid #fff8de;
+
+.form-item input {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #fff8de;
     border-radius: 5px;
     width: 100%;
     text-align: right;
 }
-#comments{
+
+#comments {
     width: 66%;
     border-radius: 5px;
 }
-#button-div{
+
+#button-div {
     display: flex;
     justify-content: flex-end;
     /* width: 40px; */
@@ -252,42 +273,75 @@ h1, p{
     /* ; */
 }
 
-button{
+button {
     width: 90px;
     border-radius: 10px;
-    box-shadow:  0 0 5px rgba(135, 135, 134, 0.4);
+    box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);
 }
-button:hover{
+
+button:hover {
     background-color: #4d5d53;
     color: #e1e4cd;
 }
-#close{
+
+#close {
     border-radius: 5%;
     background-color: #e1e4cd;
     color: #4d5d53;
-    box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);;
+    box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);
+    ;
 }
+
 /* Footer */
 footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    position: relative;
     width: 100%;
-    justify-content: space-evenly;
-    flex-flow: row;
-
-    
-    /* background-color: darkkhaki; */
+    justify-content: flex-end;
 }
 
-footer,ul{
+footer,
+ul {
     list-style-type: none;
     justify-content: space-evenly;
+    display: flex;
+
 }
+
 #social-networks i {
+    display: flex;
+    flex-direction: row;
     font-size: 160%;
     padding: 5%;
     letter-spacing: 4px;
     color: bisque;
+    margin: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #feedback-page {
+        padding: 10% 25%;
+    }
+
+    body {
+        height: 100dvh;
+        overflow: hidden;
+    }
+
+    footer {
+        bottom: 0;
+        left: 0;
+        display: flex;
+    }
+
+    #social-networks i {
+        display: flex;
+        flex-direction: row;
+        font-size: 160%;
+        padding: 5%;
+        letter-spacing: 4px;
+        color: bisque;
+        margin: 0 100px;
+    }
 }
