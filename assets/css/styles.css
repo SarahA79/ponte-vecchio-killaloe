@@ -301,7 +301,11 @@ button:hover {
     background-color: #4d5d53;
     color: #e1e4cd;
 }
-
+#thanks-text{
+    border: 1px solid #1f2622;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(r3, 51, 3 0.4) ;
+}
 #close {
     border-radius: 5%;
     background-color: #e1e4cd;
