@@ -278,7 +278,7 @@ p {
     border: 1px solid #fff8de;
     border-radius: 5px;
     width: 100%;
-    text-align: right;
+    text-align: left;
 }
 
 #comments {
@@ -302,13 +302,12 @@ button:hover {
     color: #e1e4cd;
 }
 #thanks-text{
-    border: 1px solid #02180b;
-    border-radius: 5px;
+
     align-self: center;
-    text-align: center; box-shadow: 0 0 5px rgba(135, 135, 134, 0.4);
+   
 }
 #thanks-text h1{
-    margin-top: 0;
+    margin-top: 60px;
 }
 #close {
     border-radius: 5%;
