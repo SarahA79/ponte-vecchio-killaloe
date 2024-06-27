@@ -21,7 +21,6 @@ h1 {
     font-size: 3rem;
 }
 
-
 .navbar {
     position: fixed;
     width: 100%;
@@ -77,9 +76,6 @@ h1 {
     position: relative;
     width: 100vw;
     height: 300px;
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: center; */
     border-bottom: 1px solid #1f2622;
     color:rgba(252, 252, 252, 0.1)
 }
@@ -150,11 +146,6 @@ h3 {
     border-top: 1px solid #1f2622;
 }
 
-/* Menu  */
-/* #food-menu-block {
-    align-items: center;
-} */
-
 .light-menu {
     display: flex;
     flex-direction: column;
@@ -162,40 +153,12 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-/*
-#light-menu,
-#food-menu {
-    position: relative;
-    justify-self: center;
-} */
-/*
-.food {
-    width: 80%em;
-} */
 
-
-/*testing grid */
-/* .container {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    gap: 10px;
-    padding: 20px;
-    margin: 1.2rem;
-    border-bottom: 1px solid #e1e4cd;
-}*/
  .item {
     padding: 5%;
     text-align: center;
     width: 40%;
 }
-
-
-#food-menu-block {
-    display: flex;
-   justify-content: center;
-    /* justify-content: space-between; */
-}
-
 
 h1 {
     text-align: center;
@@ -211,7 +174,7 @@ h1 {
 }
 
 #light-menu{
-    width: 50%;
+    /* width: 50%; */
     padding-right: 10px;
 }
 #food-sandwiches{
@@ -247,7 +210,6 @@ p {
     padding: 20px 10% 0 10%;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Feedback form*/
@@ -354,7 +316,13 @@ footer ul li{
     body {
         height: 100dvh;
     }
-
+    #food-menu-block {
+        display: flex;
+        justify-content: space-around;
+    }
+    #light-menu{
+        width: 50%; 
+    }
     footer {
         bottom: 0;
         left: 0;
