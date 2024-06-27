@@ -23,7 +23,7 @@ h1 {
 
 .navbar {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     left: 0;
     top: 0;
     box-shadow: 0 4px 4px #1f2622;
@@ -68,12 +68,13 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width: 100vw;
 }
 
 #hero-main {
     background: url("../images/pv-front.jpeg") no-repeat center center/cover;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 300px;
     /* display: flex;
     align-items: flex-end;
