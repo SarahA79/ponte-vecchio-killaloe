@@ -13,6 +13,7 @@ body {
     background-color: #222917;
     color: #e1e4cd;
     font-family: Alata, sans-serif;
+    padding: 0px;
 }
 
 h1 {
@@ -93,8 +94,15 @@ h1 {
     justify-content: center;
     border-bottom: 1px solid #1f2622;
 }
-
-
+#hot-drinks{
+    align-content: center;
+}
+#drinks-menu-block-1{
+    width: 50%;
+}
+#drinks-menu-block-1 h2{
+    line-height: 3em;
+}
 #welcome h1,
 #welcome h2,
 h3 {
@@ -154,13 +162,13 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-/* 
+/*
 #light-menu,
 #food-menu {
     position: relative;
     justify-self: center;
 } */
-/* 
+/*
 .food {
     width: 80%em;
 } */
@@ -179,42 +187,15 @@ h3 {
     padding: 5%;
     text-align: center;
     width: 40%;
-} 
-/*
-.text-left {
-    text-align: left;
-    font-weight: bold;
 }
 
-.price {
-    padding: 0;
-    align-content: center;
-}
-
-.description {
-    padding-top: 0px;
-    padding-bottom: 2px;
-    padding-left: 10%;
-    font-size: smaller;
-    text-align: left;
-    margin-bottom: 6px;
-    margin-top: -5%;
-} */
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
 
 #food-menu-block {
     display: flex;
-    justify-content: space-between;
+   justify-content: center;
+    /* justify-content: space-between; */
 }
 
-/* .container {
-    width: 48%;
-} */
 
 h1 {
     text-align: center;
@@ -308,9 +289,6 @@ p {
 #button-div {
     display: flex;
     justify-content: flex-end;
-    /* width: 40px; */
-    /* border-radius: 15px; */
-    /* ; */
 }
 
 button {

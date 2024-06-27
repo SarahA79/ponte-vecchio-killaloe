@@ -1,9 +1,9 @@
 # Ponte Vecchio Killaloe
 
 Ponte Vecchio Killaloe is a site created for use by the Ponte Vecchio cafe in Killaloe County Clare.
-previosly the cafe had no website to either promote or hold information about them and waht they do
+Previosly the cafe had no website to either promote or showcase information about their food and business.
 
-Add a Blurb about the site here, what does it do, why did you build it?
+With this site the main aim was to create a space where people can view the menus and leave feedback while providing links to social media outlets for up to date posts.
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
