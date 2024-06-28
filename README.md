@@ -93,25 +93,32 @@ Add all information about your colour scheme for your site here. You can explain
 
 ### Typography
 
-font used was the alata font as this was te font previously used on the menu.
+The Font used throught the whole site was the alata font as this was the font previously used on the hardcopy menu and the owners requestesd full cohesion in the font.
 ![Fonts](assets/images/font-ss.png) 
 
 ### Imagery
 
-imagry used was acombination of owner supplied photos and AI generated creations for a striking harmony that envokes a warm and mouthwatering feeling for the service users. 
+Imagery used was acombination of owner supplied photos and AI generated creations for a striking harmony that envokes a warm and mouthwatering feeling for the service users. 
 
 
 
 ## Features
 - Homepage
 ![homepage](assets/images/homepage-ss.png)
+Basic welcome information to users introducing the overall business of Ponte Vecchio
+
 - Food Menu
 ![Food Menu ](assets/images/food-ss.png)
+Provides a catagorised menu for the cafe.
+
 - Drinks Menu
 ![Drinks Menu](assets/images/drinks-ss.png)
+Proveds a list of drinks and prices sepreate from the food menu
+
 - Feedback Form
 ![Feedback](assets/images/feedback.png)
- - thank you response page with link back to home
+Allows customers to provide feedback to Ponte Vecchio owners as desired
+ - Thank you response page with link back to home
 
 
 
@@ -195,19 +202,39 @@ Feedback form not centered on large screen.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://saraha79.github.io/ponte-vecchio-killaloe
 
 ### Local Development
+GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+1 Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 
-#### How to Fork
+2 Scroll down the Settings page until you locate the "GitHub Pages" Section.
 
-Place instructions on how to fork your project here.
+3 Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
 
-#### How to Clone
+4 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-Place instructions on how to clone your project here.
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1 Log in to GitHub and locate the GitHub Repository
+2 At the top of the Repository (not the top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3 You should now have a copy of the original repository in your GitHub account.
+### Making a Local Clone
+1 Log in to GitHub and locate the GitHub Repository
+2 Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+3 Open Git Bash
+4 Change to the current working directory to the location where you want the cloned directory to be made.
+5 Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Testing
 - HTML W3C 
@@ -246,6 +273,8 @@ Inspiration from love running coders, fresh eyes from fellow students such all g
 ### Code Used
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+text/data /code used from codeinstitute readme for cloning and deploying repositories
+readme template from Kera-Hackteam and editied as needed.
 
 ### Content
 
