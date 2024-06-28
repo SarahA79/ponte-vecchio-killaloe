@@ -22,7 +22,6 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
 
 * [Features](#features)
   * [General Features on Each Page](#general-features-on-each-page)
@@ -135,13 +134,26 @@ Make sure to include things like git, GitHub, the program used to make your wire
 
 A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
 
-## Deployment & Local Development
+### Validator Testing 
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
+- HTML
+  - No errors were returned when passing through the official [W3C validator]()
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator]()
 
-### Deployment
+### Unfixed Bugs
+Feedback form not centered.
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 ### Local Development
 
@@ -179,8 +191,12 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+Images supplied by Eilish at Ponte Vechio and AI generated pizza on chatGPT.
   
 ###  Acknowledgments
+Thanks go to Dick Vaanderen CI project tutor for guidance, Vernell Clark for huddles and experienced CI student eyes and pointing out my flaws in code and peer review.
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+![accessibility](assets/images/w3c-html-validator-1.png)
+![accessibility](assets/images/w3c-html-validator-2.png)
+![accessibility](assets/images/w3c-html-validator-drinks-1.png)
+![accessibility](assets/images/w3c-html-validator-food-1.png)
