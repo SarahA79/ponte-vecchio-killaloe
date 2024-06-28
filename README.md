@@ -111,7 +111,7 @@ imagry used was acombination of owner supplied photos and AI generated creations
 ![Drinks Menu](assets/images/drinks-ss.png)
 - Feedback Form
 ![Feedback](assets/images/feedback.png)
-- - thank you response page with link back to home
+ - thank you response page with link back to home
 
 
 
@@ -126,8 +126,9 @@ Each page has a Navigation bar at the top that stays in position and a footer wi
 
 ### Future Implementations
 
-As part of future development the following will be added
--A photo gallery of events, food and other relevant photos
+As part of future development the following will be added.
+
+- A photo gallery of events, food and other relevant photos
 - A daily specials section
 - Feedback from customers for users to see what others have said
 
@@ -170,10 +171,8 @@ A great tip for this section is to include them as you use them, that way you wo
 Feedback form not centered.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+ 
+- The site was deployed to GitHub pages at the start using steps as follows:
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
