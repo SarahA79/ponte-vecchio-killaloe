@@ -117,7 +117,9 @@ Proveds a list of drinks and prices sepreate from the food menu
 
 - Feedback Form
 ![Feedback](assets/images/feedback.png)
+
 Allows customers to provide feedback to Ponte Vecchio owners as desired
+ 
  - Thank you response page with link back to home
 
 
