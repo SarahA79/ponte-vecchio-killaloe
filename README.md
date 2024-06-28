@@ -134,41 +134,59 @@ As part of future development the following will be added.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+Accessibility has been an important factor within the page so labels, fonts and colors have been utilized throughout with wave validation testing completed as below:
+- Homepage
+![homepage](assets/images/wave-validator-homepage-1.png)
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+- Food Menu
+![Food Menu](assets/images/wave-validator-homepage-1.png)
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
+- Drinks Menu
+![Drinks Menu](assets/images/waze-validator-drinks-1.png))
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+- Feedback
+![feedback](assets/images/wave-feedback-1.png)
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
-
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+- HTML
+- CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Git - For version control.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Github - To save and store the files for the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+favicon.io - To create a custom favicon 
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+Am I Responsive? To show the website image on a range of devices.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]()
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaraha79.github.io%2Fponte-vecchio-killaloe%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsaraha79.github.io%2Fponte-vecchio-killaloe&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  ![css cert](<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        )
 
 ### Unfixed Bugs
-Feedback form not centered.
+Feedback form not centered on large screen.
 
 ## Deployment
  
@@ -192,18 +210,38 @@ Place instructions on how to fork your project here.
 Place instructions on how to clone your project here.
 
 ## Testing
+- HTML W3C 
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+![W3C HTML validation](assets/images/w3c-html-validator-2.png)
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+## Manual Testing
+
+Features	Expected Outcome	Test Performed	Results	Pass/Fail
+Navbar				
+
+#### Home	when clicked, the page should scroll up to the top or back to home from all other pages
+ -	Clicked "Home" on the Navbar and Page reloaded to the Home Page -	Pass
+
+#### Food menu	when clicked, the page should scroll up to top of page or load the Food Menu
+- Clicked "Food Menu" in the Navbar	Page scrolled up and down to the Traits section	Pass
+#### Drinks menu	when clicked, the page should scroll up to the top or back to home from all other pages
+ -	Clicked "Drinks menu" on the Navbar and the page reloaded to the Drinks menu -	Pass
+
+#### Feedback	when clicked, the page should load or refresh form
+- Clicked "Feedback" in the Navbar and page reloaded or opened feedback form	Pass
+
+#### Input data into feedback form and submit successfully
+- Input of all data correctly results in a thank you page displayed with a close link that on click returns to the homepage
+incorrect input or omition of any field results in prompt error to display asking for the field/s to be filled in. Pass
+
+#### Facebook icon takes the user to the facebook page of Ponte Vecchio in new tab
+- clicked link Icon and a new tab with Ponte Vechio page loads  pass
+
+#### Istagram icon link takes the user to the Instagram page in a new tab
+- clicked link Icon and a new tab with Ponte Vechio page loads  pass 
 
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
+Inspiration from love running coders, fresh eyes from fellow students such all george P and Vernell Clark when I have been stuck on getting parts to work and many youTube channels including leela Web dev, FollowAndrew and Kevin Powell for expert tips and tricks with css, git and html.
 
 ### Code Used
 
@@ -211,7 +249,7 @@ If you have used some code in your project that you didn't write, this is the pl
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content for the page has been writte by the owners of Ponte Vecchio, myself and inspired/checked by chatGPT4o
 
 ###  Media
 
@@ -220,7 +258,3 @@ Images supplied by Eilish at Ponte Vechio and AI generated pizza on chatGPT.
 ###  Acknowledgments
 Thanks go to Dick Vaanderen CI project tutor for guidance, Vernell Clark for huddles and experienced CI student eyes and pointing out my flaws in code and peer review.
 
-![accessibility](assets/images/w3c-html-validator-1.png)
-![accessibility](assets/images/w3c-html-validator-2.png)
-![accessibility](assets/images/w3c-html-validator-drinks-1.png)
-![accessibility](assets/images/w3c-html-validator-food-1.png)
