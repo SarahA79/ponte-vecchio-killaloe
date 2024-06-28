@@ -5,11 +5,10 @@ Previosly the cafe had no website to either promote or showcase information abou
 
 With this site the main aim was to create a space where people can view the menus and leave feedback while providing links to social media outlets for up to date posts.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![Ponte Vecchio Killaloe](assets/images/website-mock-ups.png) 
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+[Link to live site](https://saraha79.github.io/ponte-vecchio-killaloe)
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -48,63 +47,89 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ---
 
-## User Experience (UX)
-
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
 
 ### User Stories
+### User Experience (UX) for Ponte Vecchio Cafe, Deli, and Wine Store
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Initial Discussion
+Ponte Vecchio Cafe, Deli, and Wine Store is a charismatic establishment that offers a unique blend of Italian culinary delights and fine wines. With an increasing focus on sustainability and growing customer interest, the owner is spending significant investment in creating a more eco friendly aspect to the cafe’s offerings and how to participate in various events and promotions.
 
-## Design
+The owners of Ponte Vecchio Cafe, Deli, and Wine Store, are committed to promoting sustainability and reducing their environmental footprint. To achieve this, they want to encourage the use of reusable items within their establishment. This involves providing customers with reusable utensils, cups, and containers to minimize waste. With htis in mind, transitioning to online menus is a priority. This digital shift not only helps reduce paper waste but also allows for easy updates to the menus and share the latest offerings and specials more efficiently. By adopting these practices, we aim to create a more sustainable and environmentally friendly experience for our customers.
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
+#### Key Information for the Site
+- **Introduction to Ponte Vecchio**: Highlighting the menu items, deli, and bookstore.
+- **Feedback area**: a place where users can provide feedback for the owners.
+- **food Menu**: Easy access for customers to see what food is on offer.
+- **Drinks Menu**:Easy access for customers to see what drinks are on offer.
 
-### Colour Scheme
+#### User Stories
+
+**Client Goals**
+- Ensure the website is accessible and user-friendly on various device sizes.
+- Simplify the process for potential customers to view the menus before arrival.
+- Clearly display current menu options in a way that all customers can view.
+- Provide an easy way for customers to contact the cafe with questions, feedback, or recommendations.
+
+**First Time Visitor Goals**
+- Understand what Ponte Vecchio Cafe, Deli, and Wine Store is and how to engage with it.
+- Navigate the site easily to find relevant information.
+- Locate the cafe’s social media profiles for more updates and interactions.
+
+**Returning Visitor Goals**
+- Access up-to-date information on current specials where updated and event when added.
+- Easily contact the cafe with any questions or suggestions.
+
+**Frequent Visitor Goals**
+- Recommend new products or events for the cafe to consider.
+- review menu options as desired
+
+This user-centric approach ensures that all visitors, have a pleasant, seamless and informative experience that enhances their connection with Ponte Vecchio Cafe, Deli, and Wine Store.
+## Design and Color Scheme
+Design was heavily focused on creating a seamless transition from the current pape based menu design so by using the altera font througout was important as was following the menu color scheme of darkolive tones and complimentary contrasting colours
+
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+font used was the alata font as this was te font previously used on the menu.
+![Fonts](assets/images/font-ss.png) 
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+imagry used was acombination of owner supplied photos and AI generated creations for a striking harmony that envokes a warm and mouthwatering feeling for the service users. 
 
-### Wireframes
 
-Add the images or links for your wireframes here.
-
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
 
 ## Features
+- Homepage
+![homepage](assets/images/homepage-ss.png)
+- Food Menu
+![Food Menu ](assets/images/food-ss.png)
+- Drinks Menu
+![Drinks Menu](assets/images/drinks-ss.png)
+- Feedback Form
+![Feedback](assets/images/feedback.png)
+- - thank you response page with link back to home
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
-This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+Each page has a Navigation bar at the top that stays in position and a footer with address and social links
+-Navigation Bar
+![navbar](assets/images/navbar-ss.png)
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+-Footer
+![footer](assets/images/footer-ss.png)
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+As part of future development the following will be added
+-A photo gallery of events, food and other relevant photos
+- A daily specials section
+- Feedback from customers for users to see what others have said
 
 ### Accessibility
 
